@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn import linear_model
 import warnings
+print("hello world")
 warnings.filterwarnings(action="ignore")
 def get_data(file_name):
     dataframe=pd.read_csv(file_name)
